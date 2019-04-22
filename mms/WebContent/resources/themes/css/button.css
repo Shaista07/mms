@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	
+}
+
+/* =============================
+	LOGOUT BUTTON
+   ============================= */
+.btn-ghost:link, .btn-ghost:visited {
+	display: inline-block;
+	padding: 7px 30px;
+	margin-right: 20px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.3s, border 0.3s, color 0.3s;
+	!
+	important
+}
+
+.btn-ghost:link, .btn-ghost:visited {
+	border: 1px solid #e67e22;
+	color: #e67e22;
+	!
+	important
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+	background-color: #cf6d17;
+	!
+	important
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+	border: 1px solid #cf6d17;
+	color: #fff;
+	!
+	important
+}
+
+/* =============================
+	NAV LINKS
+   ============================= */
+.nav-link:link, .nav-link:visited {
+	padding: 8px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.3s;
+}
+
+.nav-link:hover, .nav-link:active {
+	border-bottom: 2px solid #e67e22;
+	
+}
+
+ 
+.top1 {
+	background-color: #1e3246 !important;
+	box-shadow: 10px 9px 45px 0px rgba(0, 0, 0, 0.61);
+}
+
+/* =============================
+	EDIT DELETE BUTTONS
+   ============================= */
+.btn-info {
+	border-radius: 22px;
+	padding: 8px 32px;
+	font-size: 13px;
+	border: none;
+	box-shadow: 10px 9px 45px 0px rgba(0, 0, 0, 0.61);
+	margin-right: 13px;
+}
+tr td .btn-adminid {
+	border-radius: 22px;
+	padding: 8px 32px;
+	font-size: 13px;
+	border: none;
+	background-color:transparent;
+	color:black;
+	border-bottom:1px solid black;
+}
+tr td .btn-adminid:hover {
+	background-color:lightgrey;
+}
+.btn-edit {
+	border-radius: 22px;
+	background-color: #0da4b3;
+}
+
+.btn-delete {
+	background-color: #c50303;
+}
+
+.btn-edit:hover {
+	background-color: #098c99;
+}
+
+.btn-delete:hover {
+	background-color: #990101;
+}
+
+.btn-add {
+	background-color: #27a517;
+	border-radius: 22px;
+	padding: 8px 32px;
+	font-size: 15px;
+	border: none;
+	box-shadow: 10px 9px 45px 0px rgba(0, 0, 0, 0.61);
+}
+.btn-add:hover {
+	background-color: #175f0e;
+}
+/* =============================
+	TABLE
+   ============================= */
+.table {
+	width: 100%;
+	background-color: transparent;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	background-color: white;
+	box-shadow: 10px 9px 73px -13px rgba(0, 0, 0, 0.61);
+}
+.tab-head {
+	 background-color: #104048; color: white;
+}
+
+.editing
+{
+	font-size:19px;
+	font-family:initial;
+	
+}
+.editing2
+{
+	font-size:19px;
+	font-family:initial;
+	margin-top:20px;
+}
